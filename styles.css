@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.formcontainer{
+    display: flex;
+    margin: 0 10%;
+}
+
+img{
+    height: 100vh;
+    width: 35rem;
+}
+
+legend{
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.desc{
+
+}
+
+.desc-text{
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+    border: 1px solid red;
+}
+
+.desc-text2{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.formsection{
+    background-color: white;
+    padding: 2rem;
+}
+
+.form{
+    padding: 2rem 0 2rem 0;
+    box-sizing: border-box;
+    box-shadow: inset 5px 5px 5px;
+}
+
+.formcontent{
+    display: flex;
+    border: 1px solid red;
+    gap: 2rem;
+    width: 100%;
+    height: 15rem;
+    padding-top: rem;
+}
+
+.formsec1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.formsec1 > label{
+    padding-top: 2rem;
+}
+
+.formsec2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.formsec2 > label{
+    padding-top: 2rem;
+}
+
+.createacc{
+    padding: 0 0 0 0;
+}
