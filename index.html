@@ -9,12 +9,20 @@
 </head>
 <body>
     <div class="formcontainer">
-        <div class="img">   
-            <img src="https://images.unsplash.com/photo-1690151711465-2bfe4e69f241?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=711&q=80" alt="An image">
+        <div class="side-image">
+            <div class="image-holder">
+                <img class="hero" src="https://images.unsplash.com/photo-1690282419530-f908158270da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="caa maaa lL">
+                <div class="logo-holder">
+                    <img class="odin" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                    <h2 class="text">ODIN</h2>
+                </div>
+            </div>
         </div>
+                    
+
         <div class="formsection">
             <div class="desc">
-                <p class="desc-text">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+                <p class="desc-text">This is not a real online service! Lorem ipsum dolor sit amet dsajdbksjadhkasjdhsk dakhdkajhds adkajsdhkasdhasd akdjhaskdhakdjh consectetur, adipisicing elit. Necessitatibus, commodi!
 
                     Sign up <i>now</i> to get started.</p>
                 <p class="desc-text2">
@@ -22,35 +30,36 @@
                 </p>
             </div>
             <div class="form">
-                <form>
+                <form id="form">
                     <legend>Let's do this</legend>
                     <div class="formcontent">
                         <div class="formsec1">
                             <label for="firstname">FIRST NAME</label>
-                            <input type="text" id="firstname" minlength="3" maxlength="30" required> 
+                            <input class="formsec1Input" type="text" id="firstname" minlength="3" maxlength="30" required> 
                             
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" maxlength="40" required> 
+                            <input class="formsec1Input" type="email" id="email" maxlength="40" required> 
                             
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" minlength="3" maxlength="30" required> 
+                            <input class="formsec1Input" data-password type="password" id="password" minlength="3" maxlength="30" required> 
+                            <span id="error"></span>
                         </div>
 
                         <div class="formsec2">
                             <label for="lastname">LAST NAME</label>
-                            <input type="text"id="lastname" minlength="3" maxlength="30" required> 
+                            <input class="formsec1Input" type="text"id="lastname" minlength="3" maxlength="30" required> 
                             
                             <label for="number">NUMBER</label>
-                            <input type="tel" id="number" maxlength="40" pattern="[0-9]{9}" required> 
+                            <input class="formsec1Input" type="tel" id="number" maxlength="40" pattern="[0-9]{9}" required> 
                             
                             <label for="cpassword">CONFIRM PASSWORD</label>
-                            <input type="password" id="cpassword" minlength="3" maxlength="30" required> 
+                            <input class="formsec1Input" type="password" id="cpassword" minlength="3" maxlength="30" required> 
                         </div>
                     </div>
                 </form>
             </div>
             <div class="createacc">
-                <button>
+                <button type="submit" id="btn">
                     Create Account
                 </button>
                 <p>
